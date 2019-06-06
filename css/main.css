@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #292929;
+  height: 60px;
+}
+
+.header-logo {
+  width: 5%;
+  height: 75%;
+  padding: 1%;
+}
+
+/*# sourceMappingURL=main.css.map */
