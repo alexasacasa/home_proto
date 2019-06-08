@@ -6,9 +6,42 @@
 body{
   font-family: $font-fam;
 }
+header{
+  background-color: $footer;
+  height: 60px;
+}
 a{
+  color: #fff;
   text-decoration: none;
 }
 li{
   list-style: none;
+}
+
+.wrapper{
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.hero__banner{
+  height: 400px;
+  background-color: $naranja;
+}
+
+.animation{
+  background-color: $animacion;
+  height: 250px;
+}
+.develop{
+  background-color: $web;
+  height: 250px;
+}
+.postproduction{
+  background-color: $post;
+  height: 250px;
+}
+.dcomercial{
+  background-color: $dic;
+  height: 250px;
 }

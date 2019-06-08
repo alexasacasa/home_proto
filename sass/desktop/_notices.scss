@@ -1,0 +1,14 @@
+.news__link{
+  border: solid $amarillo 2px;
+  border-radius: 15px;
+  font-weight: bolder;
+  color: #000;
+  background-color: $amarillo;
+  padding: 10px 20px;
+  letter-spacing: 0.1em;
+
+  &:hover{
+    color: #fff;
+
+  }
+}

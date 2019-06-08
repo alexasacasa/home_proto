@@ -1,0 +1,29 @@
+
+.carrear__title{
+  color: #fff;
+}
+.carrear__btn-3d{
+  @include btn-carrera();
+  &:hover{
+    border: solid $animacion 2px;
+  }
+}
+.carrear__btn-web{
+  @include btn-carrera();
+  &:hover{
+    border: solid $web 2px;
+  }
+}
+.carrear__btn-post{
+  @include btn-carrera();
+  &:hover{
+    border: solid $post 2px;
+  }
+}
+.carrear__btn-dic{
+  @include btn-carrera();
+  &:hover{
+    border: solid $dic 2px;
+  }
+}
+
