@@ -17,18 +17,19 @@ a{
 li{
   list-style: none;
 }
-
-.wrapper{
+.container{
   padding: 0 15px;
   margin: 0 auto;
   width: 1170px;
 }
-
-.hero__banner{
-  height: 400px;
-  background-color: $naranja;
+.titles{
+  padding-top: 60px;
+  text-align: center;
+} 
+.sub-titles{
+  padding-bottom: 30px;
+  text-align: center;
 }
-
 .animation{
   background-color: $animacion;
   height: 250px;

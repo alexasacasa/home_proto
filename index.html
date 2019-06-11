@@ -11,10 +11,10 @@
 
 <body>
   <header> <!--Menú-->
-    <nav class="header wrapper">
+    <nav class="header container">
       <img src="img/logo.png" alt="Logo del Cetav" class="header-logo">
       <ul class="nav">
-        <li class="nav__item"><a href="#" class="nav__link">Inicio | Parque La Libertad</a></li>
+        <li class="nav__item nav-item-flex-1"><a href="#" class="nav__link">Inicio | Parque La Libertad</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Sobre el CETAV</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Noticias</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Carreras Técnicas</a></li>
@@ -26,13 +26,15 @@
 
   <main>
     <section class="hero__banner"> <!--Manhattan-->
-      <h1>Somos Cetav</h1>
-      <!--Background-image + Video-->
+      <div class="container">
+        <h1 class="hero__title">Somos CETAV</h1>
+        <div class="hero__video"><!--Background-image + Video--></div>
+      </div>
     </section>
 
-    <section class="wrapper"> <!--Carreras Técnicas-->
-      <h2>Carreras Técnicas</h2>
-      <p>Te presentamos nuestra oferta académica</p>
+    <section class="container"> <!--Carreras Técnicas-->
+      <h2 class="titles">Carreras Técnicas</h2>
+      <p class="sub-titles">Te presentamos nuestra oferta académica</p>
 
       <article class="carrear animation">
         <h3 class="carrear__title">Animación Digital 3D</h3>
@@ -55,11 +57,14 @@
       </article>
     </section>
 
-    <section class="news wrapper"> <!--Noticias-->
-      <h2>Noticias</h2>
-      <p>¿Qué está sucediendo en el CETAV?</p>
+    <section class="news container"> <!--Noticias-->
+      <h2 class="titles">Noticias</h2>
+      <p class="sub-titles">¿Qué está sucediendo en el CETAV?</p>
 
-      <article class="news__item"></article> <!--Aquí adentro van las noticias-->
+      <article class="news__item">
+        <h3>Cetav-Parque La Libertad celebró en sus instalaciones la I edición de Do_action a nivel latinoamericano</h3>
+        <p>El pasado sábado 27 de abril se llevó a cabo “Do_action”,  una iniciativa promovida por la comunidad local de Wordpress para impulsar la labor de cinco organizaciones sin fines de lucro con la creación de sitios web.</p>
+      </article> <!--Aquí adentro van las noticias-->
       <article class="news__item"></article> <!--Aquí adentro van las noticias-->
       <article class="news__item"></article> <!--Aquí adentro van las noticias-->
 
@@ -67,7 +72,7 @@
     </section>
   </main>
 
-  <footer class="wrapper">
+  <footer class="container">
     <nav>
       <h4>Conozca más</h4>
       <ul>
