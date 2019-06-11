@@ -1,6 +1,7 @@
 .hero__banner{
-  background-color: $naranja;
-  background-image: url('../../img/trianglify.svg');
+  background-image: url('../img/trianglify.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   height: 400px;
 }
