@@ -1,3 +1,17 @@
+.news__item{
+  border: solid 2px $footer;
+  float: left;
+  height: auto;
+  padding: 1%;
+  width: 30%;
+}
+.news__item + .news__item{
+  margin-left: 1.42%;
+}
+.news__item-date{
+  color: rgb(131, 131, 131);
+  margin: 20px;
+}
 .news__link{
   border: solid $amarillo 2px;
   border-radius: 15px;
@@ -9,6 +23,5 @@
 
   &:hover{
     color: #fff;
-
   }
 }
