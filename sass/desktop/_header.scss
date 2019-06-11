@@ -1,7 +1,10 @@
 // header, nav styles
 .header{
   background-color: $footer;
+  display: flex;
   height: 60px;
+  flex-direction: row;
+  align-items: center;
 }
 .header-logo{
   float: left;
@@ -9,8 +12,18 @@
   height: 50px;
 }
 .nav{
-  float: left;
+  display: flex;
+  justify-content: flex-end;
 }
 .nav__item{
   float: left;
+  padding-left: 25px;
 }
+.nav-item-flex-1{
+  padding-right: 140px;
+}
+
+/*
+  Preguntar a Leiva sobre cuál sería la mejor implementación
+  de Flex en el caso del header
+*/
