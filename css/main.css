@@ -18,7 +18,7 @@ li {
   list-style: none; }
 
 .container {
-  padding: 0 15px;
+  padding: 0 60px;
   margin: 0 auto;
   width: 1170px; }
 
@@ -74,8 +74,9 @@ li {
   de Flex en el caso del header
 */
 .hero__banner {
-  background-color: #f19130;
-  background-image: url("../../img/trianglify.svg");
+  background-image: url("../img/trianglify.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   height: 400px; }
 
@@ -148,5 +149,49 @@ li {
   letter-spacing: 0.1em; }
   .news__link:hover {
     color: #fff; }
+
+footer {
+  background-color: #292929;
+  color: #fff;
+  font-size: .9rem;
+  padding: 40px 0; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 100%; }
+
+.footer__info {
+  float: left;
+  width: 20%; }
+  .footer__info p {
+    margin: .5em; }
+
+.footer__info + .footer__info {
+  margin-left: 5%; }
+
+.footer__titles {
+  font-family: "Palanquin Dark",Arial,Verdana,sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 1em; }
+
+.footer__nav li {
+  margin: .5em; }
+  .footer__nav li:hover {
+    text-decoration-line: underline; }
+
+.footer__container-btn {
+  margin: 1.5em 0; }
+
+.footer__btn {
+  border: solid 2px #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin-top: 1.5em;
+  padding: 2px 12px; }
+  .footer__btn:hover {
+    background-color: #fff;
+    color: #292929; }
 
 /*# sourceMappingURL=main.css.map */
