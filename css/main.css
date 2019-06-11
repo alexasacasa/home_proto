@@ -17,14 +17,10 @@ a {
 li {
   list-style: none; }
 
-.wrapper {
+.container {
   padding: 0 15px;
   margin: 0 auto;
   width: 1170px; }
-
-.hero__banner {
-  height: 400px;
-  background-color: #f19130; }
 
 .animation {
   background-color: #dc651e;
@@ -69,6 +65,26 @@ li {
   Preguntar a Leiva sobre cuál sería la mejor implementación
   de Flex en el caso del header
 */
+.hero__banner {
+  background-color: #f19130;
+  background-image: url("../../img/trianglify.svg");
+  display: flex;
+  height: 400px; }
+
+.hero__title {
+  color: #fff;
+  display: inline-table;
+  font-size: 42px;
+  margin-top: 10%; }
+
+.hero__video {
+  background-color: #fff;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  float: right;
+  height: 100%;
+  opacity: 0.5;
+  width: 75%; }
+
 .carrear__title {
   color: #fff; }
 

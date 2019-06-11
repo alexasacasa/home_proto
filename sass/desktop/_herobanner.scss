@@ -1,0 +1,20 @@
+.hero__banner{
+  background-color: $naranja;
+  background-image: url('../../img/trianglify.svg');
+  display: flex;
+  height: 400px;
+}
+.hero__title{
+  color: #fff;
+  display: inline-table;
+  font-size: 42px;
+  margin-top: 10%;
+}
+.hero__video{
+  background-color: #fff;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  float: right;
+  height: 100%;
+  opacity: 0.5;
+  width: 75%;
+}
