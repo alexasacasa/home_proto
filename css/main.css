@@ -18,11 +18,12 @@ li {
   list-style: none; }
 
 .container {
-  padding: 0 60px;
   margin: 0 auto;
   width: 1170px; }
 
 .titles {
+  font-family: "Palanquin Dark",Arial,Verdana,sans-serif;
+  font-weight: bolder;
   padding-top: 60px;
   text-align: center; }
 
@@ -95,12 +96,18 @@ li {
   width: 75%; }
 
 .carrear__title {
-  color: #fff; }
+  color: #fff;
+  font-size: 1.5rem; }
+
+.carrear__btn {
+  margin: 1.5em;
+  margin-top: 1.5em; }
 
 .carrear__btn-3d {
   border: solid #fff 2px;
   border-radius: 5px;
-  padding: 8px; }
+  padding: 8px;
+  float: right; }
   .carrear__btn-3d:hover {
     border: solid #dc651e 2px; }
 
@@ -124,6 +131,11 @@ li {
   padding: 8px; }
   .carrear__btn-dic:hover {
     border: solid #3a7d91 2px; }
+
+.animation {
+  background-image: url("../img_carreras/3d_color.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .news__item {
   border: solid 2px #292929;
@@ -175,7 +187,7 @@ footer {
 
 .footer__titles {
   font-family: "Palanquin Dark",Arial,Verdana,sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bolder;
   margin-bottom: 1em; }
 

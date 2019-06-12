@@ -1,9 +1,15 @@
 
 .carrear__title{
   color: #fff;
+  font-size: 1.5rem;
+}
+.carrear__btn{
+  margin: 1.5em;
+  margin-top: 1.5em;
 }
 .carrear__btn-3d{
   @include btn-carrera();
+  float: right;
   &:hover{
     border: solid $animacion 2px;
   }
@@ -25,5 +31,10 @@
   &:hover{
     border: solid $dic 2px;
   }
+}
+.animation{
+  background-image: url('../img_carreras/3d_color.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
