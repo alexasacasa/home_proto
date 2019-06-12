@@ -166,6 +166,9 @@ footer {
   width: 20%; }
   .footer__info p {
     margin: .5em; }
+  .footer__info img {
+    width: 25px;
+    margin: .5em; }
 
 .footer__info + .footer__info {
   margin-left: 5%; }
