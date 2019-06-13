@@ -18,9 +18,14 @@
 .nav__item{
   float: left;
   padding-left: 25px;
+
 }
 .nav-item-flex-1{
   padding-right: 140px;
+}
+.nav__link:hover{
+  border-bottom: solid 2px #fff;
+  padding-bottom: 3px;
 }
 
 /*

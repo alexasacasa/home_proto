@@ -22,24 +22,28 @@
   @include btn-carrera();
   &:hover{
     border: solid $animacion 2px;
+    color: $animacion;
   }
 }
 .carrear__btn-web{
   @include btn-carrera();
   &:hover{
     border: solid $web 2px;
+    color: $web;
   }
 }
 .carrear__btn-post{
   @include btn-carrera();
   &:hover{
     border: solid $post 2px;
+    color: $post;
   }
 }
 .carrear__btn-dic{
   @include btn-carrera();
   &:hover{
     border: solid $dic 2px;
+    color: $dic;
   }
 }
 

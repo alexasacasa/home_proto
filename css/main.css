@@ -75,6 +75,10 @@ li {
 .nav-item-flex-1 {
   padding-right: 140px; }
 
+.nav__link:hover {
+  border-bottom: solid 2px #fff;
+  padding-bottom: 3px; }
+
 /*
   Preguntar a Leiva sobre cuál sería la mejor implementación
   de Flex en el caso del header
@@ -125,28 +129,32 @@ li {
   border-radius: 5px;
   padding: 8px; }
   .carrear__btn-3d:hover {
-    border: solid #dc651e 2px; }
+    border: solid #dc651e 2px;
+    color: #dc651e; }
 
 .carrear__btn-web {
   border: solid #fff 2px;
   border-radius: 5px;
   padding: 8px; }
   .carrear__btn-web:hover {
-    border: solid #9e280d 2px; }
+    border: solid #9e280d 2px;
+    color: #9e280d; }
 
 .carrear__btn-post {
   border: solid #fff 2px;
   border-radius: 5px;
   padding: 8px; }
   .carrear__btn-post:hover {
-    border: solid #819534 2px; }
+    border: solid #819534 2px;
+    color: #819534; }
 
 .carrear__btn-dic {
   border: solid #fff 2px;
   border-radius: 5px;
   padding: 8px; }
   .carrear__btn-dic:hover {
-    border: solid #3a7d91 2px; }
+    border: solid #3a7d91 2px;
+    color: #3a7d91; }
 
 .cont-carrear-info {
   width: 30%;
