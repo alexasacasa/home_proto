@@ -21,6 +21,11 @@ li{
   margin: 0 auto;
   width: 1170px;
 }
+.clearfx:after {
+  display: block;
+  content: "";
+  clear: both;
+}
 .titles{
   font-family: "Palanquin Dark",Arial,Verdana,sans-serif;
   font-weight: bolder;
