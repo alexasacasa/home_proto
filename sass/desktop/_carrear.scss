@@ -1,6 +1,13 @@
 .animation{
-  background-image: url('../img_carreras/3d_color.jpg');
+  background: 100% 45%;
+  background-image: url('../img_carreras/3d_giphy');
+  background-size: contain;
   justify-content: flex-end;
+
+  &:hover{
+    background-image: url('../img_carreras/3d_giphy.gif');
+    transition: 1s;
+  }
 }
 .carrear{
   background-size: cover;
@@ -46,23 +53,29 @@
     color: $dic;
   }
 }
-
 .cont-carrear-info {
   width: 30%;
   text-align: center;
 }
-
 .develop {
-  background-image: url('../img_carreras/web_color.jpg');
-  justify-content: flex-start;
-}
+  background: 100% 45%;
+  background-image: url('../img_carreras/web_giphy');
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
 
+  /*&:hover{
+    background-image: url('../img_carreras/web_giphy.gif');
+    transition: 1s;
+  }*/
+}
 .dcomercial {
   background-image: url('../img_carreras/dic_color.jpg');
   justify-content: flex-start;
 }
 
 .postproduction {
-  background-image: url('../img_carreras/post_color.jpg');
+  background-image: url('../img_carreras/post5.jpg');
+  background-size: cover;
   justify-content: flex-end;
 }
