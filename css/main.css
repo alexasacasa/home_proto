@@ -32,7 +32,8 @@ img {
 
 .titles {
   font-family: "Palanquin Dark",Arial,Verdana,sans-serif;
-  font-weight: bolder;
+  font-size: 1.8rem;
+  font-weight: 800;
   padding-top: 60px;
   text-align: center; }
 
@@ -65,19 +66,21 @@ img {
 
 .header-logo {
   float: left;
-  width: 100px;
-  height: 50px; }
+  width: 85px;
+  height: 40px; }
 
 .nav {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  float: right; }
 
 .nav__item {
   float: left;
   padding-left: 25px; }
 
 .nav-item-flex-1 {
-  padding-right: 140px; }
+  padding-left: 190px;
+  padding-right: 0; }
 
 .nav__link:hover {
   border-bottom: solid 2px #fff;
@@ -105,17 +108,16 @@ img {
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   float: right;
   height: 100%;
-  opacity: 0.5;
   width: 75%; }
 
 .animation {
-  background: 100% 45%;
-  background-image: url("../img_carreras/3d_giphy");
-  background-size: contain;
-  justify-content: flex-end; }
-  .animation:hover {
-    background-image: url("../img_carreras/3d_giphy.gif");
-    transition: 1s; }
+  background: 100% 25%;
+  background-image: url("../img_carreras/3d.jpg");
+  justify-content: flex-end;
+  /*&:hover{
+    background-image: url('../img_carreras/3d_giphy.gif');
+    transition: 1s;
+  }*/ }
 
 .carrear {
   background-size: cover;
@@ -186,8 +188,11 @@ img {
 
 .postproduction {
   background-image: url("../img_carreras/post5.jpg");
-  background-size: cover;
   justify-content: flex-end; }
+
+.cont-news {
+  display: flex;
+  justify-items: center; }
 
 .link-container {
   width: 100%;
@@ -199,29 +204,31 @@ img {
   float: left;
   height: auto;
   padding: 1%;
-  width: 30%;
-  height: 250px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); }
+  width: 29%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); }
+  .news__item h3, .news__item p {
+    margin: 15px; }
 
 .news__item + .news__item {
-  margin-left: 1.42%; }
+  margin-left: 3%; }
 
 .news__item-date {
   color: #838383;
-  margin: 20px; }
+  margin: 15px; }
 
 .news__link {
-  border: solid #fed604 2px;
-  border-radius: 25px;
+  border: solid #292929 2px;
+  border-radius: 5px;
   font-weight: bolder;
   color: #000;
-  background-color: #fed604;
   padding: 10px 20px;
   letter-spacing: 0.1em;
   text-align: center;
   margin-top: 20px; }
   .news__link:hover {
-    color: #fff; }
+    color: #292929;
+    background-color: #fed604;
+    border-color: #fed604; }
 
 footer {
   background-color: #292929;
