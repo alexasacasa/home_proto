@@ -69,8 +69,14 @@
   }*/
 }
 .dcomercial {
-  background-image: url('../img_carreras/dic_color.jpg');
+  background-image: url('../img_carreras/3d_gif.jpg');
   justify-content: flex-start;
+
+  &:hover{
+    background-image: url('../img_carreras/3d_giphy.gif');
+    opacity: 0;
+    transition: 1s;
+  }
 }
 
 .postproduction {
