@@ -1,12 +1,12 @@
 .animation{
-  background: 100% 25%;
-  background-image: url('../img_carreras/3d.jpg');
+  background: 100% 45%;
+  background-image: url('../img_carreras/3d_gif.jpg');
   justify-content: flex-end;
 
-  /*&:hover{
+  &:hover{
     background-image: url('../img_carreras/3d_giphy.gif');
     transition: 1s;
-  }*/
+  }
 }
 .carrear{
   background-size: cover;
@@ -74,7 +74,6 @@
 
   &:hover{
     background-image: url('../img_carreras/3d_giphy.gif');
-    opacity: 0;
     transition: 1s;
   }
 }

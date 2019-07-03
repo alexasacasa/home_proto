@@ -111,13 +111,12 @@ img {
   width: 75%; }
 
 .animation {
-  background: 100% 25%;
-  background-image: url("../img_carreras/3d.jpg");
-  justify-content: flex-end;
-  /*&:hover{
-    background-image: url('../img_carreras/3d_giphy.gif');
-    transition: 1s;
-  }*/ }
+  background: 100% 45%;
+  background-image: url("../img_carreras/3d_gif.jpg");
+  justify-content: flex-end; }
+  .animation:hover {
+    background-image: url("../img_carreras/3d_giphy.gif");
+    transition: 1s; }
 
 .carrear {
   background-size: cover;
@@ -183,8 +182,11 @@ img {
   }*/ }
 
 .dcomercial {
-  background-image: url("../img_carreras/dic_color.jpg");
+  background-image: url("../img_carreras/3d_gif.jpg");
   justify-content: flex-start; }
+  .dcomercial:hover {
+    background-image: url("../img_carreras/3d_giphy.gif");
+    transition: 1s; }
 
 .postproduction {
   background-image: url("../img_carreras/post5.jpg");
