@@ -1,8 +1,8 @@
 @import 'helpers/variables';
-@import 'helpers/mixins';
 @import 'helpers/generals';
-@import 'desktop/header';
-@import 'desktop/herobanner';
-@import 'desktop/carrear';
-@import 'desktop/notices';
-@import 'desktop/footer';
+@import 'components/buttons';
+@import 'responsive/header';
+@import 'responsive/hero-banner';
+@import 'responsive/carrears';
+@import 'responsive/notices';
+@import 'responsive/footer';
