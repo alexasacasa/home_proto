@@ -7,11 +7,12 @@ body{
   font-family: $font-fam;
 }
 header{
-  background-color: $footer;
+  background-color: $color-foot;
   height: 60px;
 }
 a{
   color: #fff;
+  cursor: pointer;
   text-decoration: none;
 }
 li{
@@ -22,32 +23,24 @@ img{
   width: 100%;
 }
 .container{
-  margin: 0 auto;
-  width: 1170px;
+  padding: 0 2%;
+  width: 96;
 }
 .titles{
   font-family: "Palanquin Dark",Arial,Verdana,sans-serif;
   font-weight: bolder;
-  padding-top: 60px;
+  padding-top: 10%;
   text-align: center;
+
+  @media (min-width: $tablet-breackpoint) {
+    padding-top: 5%;
+  }
 } 
 .sub-titles{
-  padding-bottom: 30px;
+  padding-bottom: 5%;
   text-align: center;
-}
-.animation{
-  background-color: $animacion;
-  height: 250px;
-}
-.develop{
-  background-color: $web;
-  height: 250px;
-}
-.postproduction{
-  background-color: $post;
-  height: 250px;
-}
-.dcomercial{
-  background-color: $dic;
-  height: 250px;
+
+  @media (min-width: $tablet-breackpoint) {
+    padding-bottom: 2.5%;
+  }
 }
