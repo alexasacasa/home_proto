@@ -1,0 +1,95 @@
+
+.carrear{
+  align-items: center;
+  background-repeat: no-repeat;
+  // background-size: cover;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+
+  @media (min-width: $laptop-breakpoint) {
+    height: 250px;
+  }
+}
+.carrear-animation{
+  background-color: $color-animation;
+  background-image: url(../img/mrcat_3d.png);
+  background-position: center;
+  background-size: 150vw;
+  transition: all .5s;
+
+  &:hover{
+    background-size: 100vw;
+  }
+
+  @media (min-width: $tablet-breackpoint) {
+    justify-content: flex-end;
+  }
+}
+.carrear-web{
+  background-color: $color-web;
+  background-image: url(../img/web4.jpg);
+  background-position: center;
+  background-size: 150vw;
+  transition: all .5s;
+
+  &:hover{
+    background-size: 100vw;
+  }
+
+  @media (min-width: $tablet-breackpoint) {
+    justify-content: flex-start;
+  }
+}
+.carrear-post{
+  background-color: $color-post;
+  background-image: url(../img/post5.jpg);
+  background-position: center;
+  background-size: 150vw;
+  transition: all .5s;
+
+  &:hover{
+    background-size: 100vw;
+  }
+  
+  @media (min-width: $tablet-breackpoint) {
+    justify-content: flex-end;
+  }
+}
+.carrear-dcomercial{
+  background-color: $color-dic;
+  background-image: url(dic_color.jpg);
+  background-position: center;
+  background-size: 150vw;
+  transition: all .5s;
+
+  &:hover{
+    background-size: 100vw;
+  }
+  
+  @media (min-width: $tablet-breackpoint) {
+    justify-content: flex-start;
+  }
+}
+.carrear__title{
+  color: #fff;
+  font-size: 1.5rem;
+}
+.cont-carrear-info{
+  margin: 2em;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $tablet-breackpoint) {
+    width: 30%;
+  }
+}
+.carrear__btn{
+  display: inline-table;
+  margin: 1.5em;
+
+  @media (min-width: $tablet-breackpoint) {
+    height: 250px;
+    width: 30%;
+  }
+}

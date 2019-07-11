@@ -6,28 +6,31 @@ footer{
 }
 .footer{
   display: flex;
-  flex-direction: row;
-  height: 100%;
+  flex-direction: column;
+
+  @media (min-width: $laptop-breakpoint) {
+    flex-direction: row;
+  }
 }
 .footer__info{
-  float: left;
-  width: 20%;
-
+  padding: 2%; 
   p{
     margin: .5em;
   }
-
   img{
     width: 25px;
     margin: .5em;
   }
-}
-.footer__info + .footer__info{
-  margin-left: 5%;
+
+  @media (min-width: $laptop-breakpoint) {
+    float: left;
+    width: 25%;
+  }
+
 }
 .footer__titles{
   font-family: "Palanquin Dark",Arial,Verdana,sans-serif;
-  font-size: 22px;
+  font-size: 1.2rem;
   font-weight: bolder;
   margin-bottom: 1em;
 }

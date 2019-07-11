@@ -1,0 +1,31 @@
+.hero__banner{
+  background-image: url('../img/trianglify.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  overflow: hidden;
+  width: 100%;
+
+  @media (min-width: $laptop-breakpoint) {
+    height: 400px;
+  }
+}
+.hero__title{
+  align-self: flex-start;
+  color: #fff;
+  font-size: 2.5rem;
+}
+.hero__reel{
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  height: 100%;
+  width: 100%;
+  transition: 1s;
+
+  &:hover{
+    transition-property: opacity;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    transition-delay: .2s;
+  }
+}
