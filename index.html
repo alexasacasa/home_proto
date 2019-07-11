@@ -10,69 +10,79 @@
 </head>
 
 <body>
-  <header> <!--Menú-->
-    <nav class="header container">
-      <img src="img/logo.png" alt="Logo del Cetav" class="header-logo">
-      <ul class="nav">
-        <li class="nav__item"><a href="#" class="nav__link">Sobre el CETAV</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Noticias</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Carreras Técnicas</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Inserción Laboral</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Nuestros Egresados</a></li>
-        <li class="nav__item nav-item-flex-1"><a href="http://parquelalibertad.org/cetav/institucion" class="nav__link">Inicio Parque La Libertad</a></li>
+  <header class="header"> <!--Menú-->
+    <img src="img/logo.png" alt="Logo del Cetav" class="header-logo">
+    <nav class="main-nav" id="main-nav">
+      <button class="main-nav__toggle" id="main-nav-toggle" aria-expanded="false" aria-controls="main-nav-items">
+        <span class="sr-only">Menú</span>
+      </button>
+      <ul class="main-nav__items" id="main-nav-items">
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Sobre el CETAV</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Noticias</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Carreras Técnicas</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Inserción Laboral</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Nuestros Egresados</a></li>
+        <li class="main-nav__item"><a href="http://parquelalibertad.org/cetav/institucion" class="main-nav__link">Inicio Parque La Libertad</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero__banner"> <!--Manhattan-->
-      <div class="container">
-        <h1 class="hero__title">Somos CETAV</h1>
-        <div class="hero__video">
-          <iframe src="https://player.vimeo.com/video/247321835?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <section class="hero__banner"> <!--Hero banner-->
+      <div class="hero__reel">
+        <!--
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/247321835?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        -->
         </div>
-      </div>
+      
     </section>
 
-    <section class="carreers__container container"> <!--Carreras Técnicas-->
+    <section class="carreers__container"> <!--Carreras Técnicas-->
       <h2 class="titles">Carreras Técnicas</h2>
       <p class="sub-titles">Te presentamos nuestra oferta académica</p>
 
-      <article class="carrear animation">
-        <div class="cont-carrear-info">
+      <article class="carrear carrear-animation lazy-image">
+        <div class="cont-carrear-info  container">
           <h3 class="carrear__title">Animación Digital 3D</h3>
-          <div class="carrear__btn">
-            <a href="#" class="carrear__btn-3d">Información sobre la carrera</a>
-          </div>
+          <a class="carrear_btn"> Información sobre la carrera
+            <svg class="btn-border">
+              <rect x="0" y="0" rx="7" ry="7" fill="none" width="100%" height="100%"/>
+            </svg>
+          </a>
         </div>
       </article>
 
-      <article class="carrear develop">
-        <div class="cont-carrear-info">
+      <article class="carrear carrear-web lazy-image">
+        <div class="cont-carrear-info  container">
           <h3 class="carrear__title">Diseño y Desarrollo Web</h3>
-          <div class="carrear__btn">
-            <a href="#" class="carrear__btn-web">Información sobre la carrera</a>
-          </div>
+          <a class="carrear_btn"> Información sobre la carrera
+            <svg class="btn-border">
+              <rect x="0" y="0" rx="7" ry="7" fill="none" width="100%" height="100%"/>
+            </svg>
+          </a>
         </div>
       </article>
 
-      <article class="carrear postproduction">
-        <div class="cont-carrear-info">
+      <article class="carrear carrear-post lazy-image">
+        <div class="cont-carrear-info container">
           <h3 class="carrear__title">Edición y Postproducción de Imagen y Sonido</h3>
-          <div class="carrear__btn">
-            <a href="#" class="carrear__btn-post">Información sobre la carrera</a>
-          </div>
+          <a class="carrear_btn"> Información sobre la carrera
+            <svg class="btn-border">
+              <rect x="0" y="0" rx="7" ry="7" fill="none" width="100%" height="100%"/>
+            </svg>
+          </a>
         </div>
       </article>
 
-      <article class="carrear dcomercial">
-        <div class="cont-carrear-info">
+      <article class="carrear carrear-dcomercial lazy-image">
+        <div class="cont-carrear-info container">
           <h3 class="carrear__title">Diseño de Imagen Comercial</h3>
-          <div class="carrear__btn">
-            <a href="#" class="carrear__btn-dic">Información sobre la carrera</a>
-          </div>
+          <a class="carrear_btn"> Información sobre la carrera
+            <svg class="btn-border">
+              <rect x="0" y="0" rx="7" ry="7" fill="none" width="100%" height="100%"/>
+            </svg>
+          </a>
         </div>
-        <img src="../img/web4.jpg" alt="">
       </article>
     </section>
 
@@ -98,8 +108,8 @@
         </article> <!--Aquí adentro van las noticias-->
       </div>
 
-      <div class="link-container">
-        <a href="#" class="news__link">Leer más noticias</a>
+      <div class="news__btn">
+        <a href="#" class="news-btn__link">Leer más noticias</a>
       </div>
     </section>
   </main>
@@ -141,6 +151,6 @@
       </div>
     </nav>
   </footer>
-  <script src="js/script.js"></script>
+  <script src=""></script>
 </body>
 </html>
