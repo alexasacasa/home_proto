@@ -6,35 +6,43 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css"/>
-  <title>Inicio | CETAV</title>
+  <title>Inicio | CETAV</title> 
 </head>
 
 <body>
-  <header class="header"> <!--Menú-->
-    <img src="img/logo.png" alt="Logo del Cetav" class="header-logo">
-    <nav class="main-nav" id="main-nav">
-      <button class="main-nav__toggle" id="main-nav-toggle" aria-expanded="false" aria-controls="main-nav-items">
-        <span class="sr-only">Menú</span>
-      </button>
-      <ul class="main-nav__items" id="main-nav-items">
-        <li class="main-nav__item"><a href="#" class="main-nav__link">Sobre el CETAV</a></li>
-        <li class="main-nav__item"><a href="#" class="main-nav__link">Noticias</a></li>
-        <li class="main-nav__item"><a href="#" class="main-nav__link">Carreras Técnicas</a></li>
-        <li class="main-nav__item"><a href="#" class="main-nav__link">Inserción Laboral</a></li>
-        <li class="main-nav__item"><a href="#" class="main-nav__link">Nuestros Egresados</a></li>
-        <li class="main-nav__item"><a href="http://parquelalibertad.org/cetav/institucion" class="main-nav__link">Inicio Parque La Libertad</a></li>
-      </ul>
-    </nav>
+  <header> <!--Menú-->
+    <svg class="hamburguer-btn js-hamburguer" viewBox="0 0 30 30">
+      <path class="line line-top" d="M0,9h30"/>
+      <path class="line line-center" d="M0,15h30"/>
+      <path class="line line-bottom" d="M0,21h30"/>
+    </svg>
+    <div class="header">
+      <img src="img/logo.png" alt="Logo del Cetav" class="header__logo">
+      <nav class="main-nav" id="main-nav">
+        <ul class="main-nav__items" id="main-nav-items">
+          <li class="main-nav__item main-nav__item1"><a href="#" class="main-nav__link">Sobre el CETAV</a></li>
+          <li class="main-nav__item main-nav__item2"><a href="#" class="main-nav__link">Noticias</a></li>
+          <li class="main-nav__item main-nav__item3"><a href="#" class="main-nav__link">Carreras Técnicas</a></li>
+          <li class="main-nav__item main-nav__item4"><a href="#" class="main-nav__link">Inserción Laboral</a></li>
+          <li class="main-nav__item main-nav__item5"><a href="#" class="main-nav__link">Nuestros Egresados</a></li>
+          <li class="main-nav__item main-nav__item6"><a href="http://parquelalibertad.org/cetav/institucion" class="main-nav__link">Inicio Parque La Libertad</a></li>
+        </ul>
+      </nav>
+    </div>
+
   </header>
 
   <main>
     <section class="hero__banner"> <!--Hero banner-->
       <div class="hero__reel">
-        <!--
-          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/247321835?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-        -->
+        <div class="left"></div>
+        <div class="cont-reel">
+          <iframe src="https://player.vimeo.com/video/247321835?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+          </iframe>
         </div>
-      
+        <div class="right"></div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </div>
     </section>
 
     <section class="carreers__container"> <!--Carreras Técnicas-->
@@ -151,6 +159,6 @@
       </div>
     </nav>
   </footer>
-  <script src=""></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>

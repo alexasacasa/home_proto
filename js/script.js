@@ -1,23 +1,20 @@
-// menu
 
-(function() {
-  
-  document.documentElement.classList.add('js');
+// (function() {
+  const btn_menu = document.querySelector('.js-hamburguer');
+  const menu = document.querySelector('.main-nav__items').children;
+  const cont_menu = document.querySelector('.main-nav');
 
-  const navElement = document.getElementById('main-nav');
-  const navToggle = document.getElementById('main-nav-toggle');
+  function animationMenu() {
+    btn_menu.classList.toggle('active');
+    cont_menu.classList.toggle('show');
+  }
 
-  navToggle.addEventListener('click', () => {
-    if (navElement.classList.contains('main-nav--expanded')) {
-      navElement.classList.remove('main-nav--expanded');
-      navToggle.setAttribute('aria-expanded', 'false');
-    } else {
-      navElement.classList.add('main-nav--expanded');
-      navToggle.setAttribute('aria-expanded', 'true');
-    }
-  });
+  for(let e of menu ){
+    e.addEventListener('click', () => {
+      btn_menu.classList.remove('active');
+      cont_menu.classList.remove('show');
+    });
+  }
 
-})();
-
-
-
+  btn_menu.addEventListener("click", animationMenu);
+// })();
