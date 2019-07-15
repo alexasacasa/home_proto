@@ -7,12 +7,12 @@
   flex-direction: row;
   height: 200px;
 
-  @media (min-width: $laptop-breakpoint) {
+  @media (min-width: $breakpoint-lg) {
     height: 250px;
   }
 }
 .carrear-animation{
-  background-color: $color-animation;
+  background-color: $animacion;
   background-image: url(../img/mrcat_3d.png);
   background-position: center;
   background-size: 150vw;
@@ -22,12 +22,12 @@
     background-size: 100vw;
   }
 
-  @media (min-width: $tablet-breackpoint) {
+  @media (min-width: $breakpoint-md) {
     justify-content: flex-end;
   }
 }
 .carrear-web{
-  background-color: $color-web;
+  background-color: $web;
   background-image: url(../img/web4.jpg);
   background-position: center;
   background-size: 150vw;
@@ -37,12 +37,12 @@
     background-size: 100vw;
   }
 
-  @media (min-width: $tablet-breackpoint) {
+  @media (min-width: $breakpoint-md) {
     justify-content: flex-start;
   }
 }
 .carrear-post{
-  background-color: $color-post;
+  background-color: $post;
   background-image: url(../img/post5.jpg);
   background-position: center;
   background-size: 150vw;
@@ -52,13 +52,13 @@
     background-size: 100vw;
   }
   
-  @media (min-width: $tablet-breackpoint) {
+  @media (min-width: $breakpoint-md) {
     justify-content: flex-end;
   }
 }
 .carrear-dcomercial{
-  background-color: $color-dic;
-  background-image: url(dic_color.jpg);
+  background-color: $dic;
+  background-image: url(../img/dic_color.jpg);
   background-position: center;
   background-size: 150vw;
   transition: all .5s;
@@ -67,7 +67,7 @@
     background-size: 100vw;
   }
   
-  @media (min-width: $tablet-breackpoint) {
+  @media (min-width: $breakpoint-md) {
     justify-content: flex-start;
   }
 }
@@ -80,7 +80,7 @@
   text-align: center;
   width: 100%;
 
-  @media (min-width: $tablet-breackpoint) {
+  @media (min-width: $breakpoint-md) {
     width: 30%;
   }
 }
@@ -88,7 +88,7 @@
   display: inline-table;
   margin: 1.5em;
 
-  @media (min-width: $tablet-breackpoint) {
+  @media (min-width: $breakpoint-md) {
     height: 250px;
     width: 30%;
   }
