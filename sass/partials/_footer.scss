@@ -1,5 +1,5 @@
 footer{
-  background-color: $footer;
+  background-color: $color-primary;
   color: #fff;
   font-size: .9rem;
   padding: 40px 0;
@@ -56,6 +56,6 @@ footer{
 
   &:hover{
     background-color: #fff;
-    color: $footer;
+    color: $color-primary;
   }
 }

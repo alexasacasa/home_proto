@@ -8,11 +8,11 @@
   height: 200px;
 
   @media (min-width: $breakpoint-lg) {
-    height: 250px;
+    height: 300px;
   }
 }
 .carrear-animation{
-  background-color: $animacion;
+  background-color: $color-carrear_animacion;
   background-image: url(../img/mrcat_3d.png);
   background-position: center;
   background-size: 150vw;
@@ -27,7 +27,7 @@
   }
 }
 .carrear-web{
-  background-color: $web;
+  background-color: $color-carrear_web;
   background-image: url(../img/web4.jpg);
   background-position: center;
   background-size: 150vw;
@@ -42,7 +42,7 @@
   }
 }
 .carrear-post{
-  background-color: $post;
+  background-color: $color-carrear_post;
   background-image: url(../img/post5.jpg);
   background-position: center;
   background-size: 150vw;
@@ -57,7 +57,7 @@
   }
 }
 .carrear-dcomercial{
-  background-color: $dic;
+  background-color: $color-carrear_dic;
   background-image: url(../img/dic_color.jpg);
   background-position: center;
   background-size: 150vw;

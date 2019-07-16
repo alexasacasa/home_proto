@@ -13,7 +13,7 @@
   width: 100%;
 }
 .news-btn__link{
-  border: solid $footer 2px;
+  border: solid $color-primary 2px;
   border-radius: 5px;
   display: inline-block; 
   font-weight: bolder;
@@ -22,9 +22,11 @@
   letter-spacing: 0.1em;
   text-align: center;
   margin: 20px auto 5% auto;
+  
   &:hover{
-    color: $footer;
-    border-color: $footer;
+    color: $color-primary;
+    background-color: $color-btn_notices;
+    border-color: $color-primary;
   }
 }
 .news__item{
