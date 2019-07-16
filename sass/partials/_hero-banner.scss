@@ -12,23 +12,28 @@
 }
 
 .cont-reel {
-  width: 65%;
-  padding-bottom: 37%;
+  width: 85%;
+  padding-bottom: 49%;
   position: relative;
-  top: -5vh;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  @media (min-width: $breakpoint-lg) {
+    width: 65%;
+    padding-bottom: 37%;
+  }
 }
+
 .hero__title{
   align-self: flex-start;
   color: #fff;
   font-size: 2.5rem;
 }
+
 .hero__reel{
   transition: 1s;
   max-height: 400px;
-  padding-right: 42px;
   overflow: hidden;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   // transform: skew(-20deg);
   &:hover{
     transition-property: opacity;
@@ -36,26 +41,8 @@
     transition-timing-function: ease;
     transition-delay: .2s;
   }
-}
-.left {
-  width: 25%;
-  height: 400px;
-  clip-path: polygon(100% 0, 70% 100%, 100% 100%);
-  position: absolute;
-  left: 33%;
-  background-image: url(../img/trianglify.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: rotate(180deg);
-  z-index: 1;
-}
-.right {
-  width: 25%;
-  height: 400px;
-  clip-path: polygon(100% 0, 70% 100%, 100% 100%);
-  position: absolute;
-  right: 2.8%;
-  background-image: url(../img/trianglify.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  @media (min-width: $breakpoint-md) {
+    justify-content: flex-end;
+    padding-right: 42px;
+  }
 }
