@@ -183,6 +183,33 @@ img {
       border-bottom: solid 2px #fff;
       transition: 0.2s; }
 
+.main-nav__span {
+  color: #fff; }
+
+.main-nav__item3:hover .nav--desplegable {
+  display: block;
+  background-color: #292929;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2%;
+  left: 20%;
+  top: 70%;
+  width: 25%; }
+
+.nav--desplegable {
+  display: none;
+  position: absolute; }
+
+.desplegable__link {
+  border-bottom: solid 1px #fff;
+  font-size: .9rem;
+  font-weight: lighter;
+  padding: 15px 0 8px 0;
+  text-align: left; }
+  .desplegable__link:hover {
+    font-weight: 900; }
+
 .hero__banner {
   background-image: url("../img/trianglify.svg");
   background-size: cover;
@@ -200,10 +227,6 @@ img {
   padding-bottom: 49%;
   position: relative;
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
-  @media (min-width: 1024px) {
-    .cont-reel {
-      width: 65%;
-      padding-bottom: 37%; } }
 
 .hero__title {
   align-self: flex-start;
@@ -215,7 +238,8 @@ img {
   max-height: 400px;
   overflow: hidden;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-right: 5; }
   .hero__reel:hover {
     transition-property: opacity;
     transition-duration: .5s;
@@ -234,7 +258,7 @@ img {
   height: 200px; }
   @media (min-width: 1024px) {
     .carrear {
-      height: 250px; } }
+      height: 300px; } }
 
 .carrear-animation {
   background-color: #dc651e;
@@ -328,6 +352,7 @@ img {
   margin: 20px auto 5% auto; }
   .news-btn__link:hover {
     color: #292929;
+    background-color: #fed604;
     border-color: #292929; }
 
 .news__item {

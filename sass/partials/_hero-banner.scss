@@ -16,10 +16,6 @@
   padding-bottom: 49%;
   position: relative;
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  @media (min-width: $breakpoint-lg) {
-    width: 65%;
-    padding-bottom: 37%;
-  }
 }
 
 .hero__title{
@@ -34,6 +30,7 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  padding-right: 5;
   // transform: skew(-20deg);
   &:hover{
     transition-property: opacity;
